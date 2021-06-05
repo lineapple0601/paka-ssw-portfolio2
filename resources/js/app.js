@@ -8,6 +8,19 @@ require('./bootstrap');
 
 window.Vue = require('vue').default;
 
+import Vue from 'vue';
+
+// VueRouter
+import VueRouter from 'vue-router';
+Vue.use(VueRouter);
+
+// BootstrapVue
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+Vue.use(BootstrapVue)
+Vue.use(IconsPlugin)
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -20,6 +33,10 @@ window.Vue = require('vue').default;
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('basic-navbar', require('./components/layouts/NavBar.vue').default);
+Vue.component('main-contents', require('./components/layouts/Contents.vue').default);
+Vue.component('index-profile-card', require('./components/index/Profile.vue').default);
+Vue.component('job-detail', require('./components/index/JobDetail.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

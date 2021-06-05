@@ -1,0 +1,22 @@
+参考資料：https://qiita.com/minato-naka/items/2d2def4d66ec88dc3ca2
+# Laravelプロジェクトの作成
+composer create-project --prefer-dist laravel/laravel vue-laravel-spa
+# フロントエンド構築に必要なベースライブラリ（laravel/ui）をインストール
+composer require laravel/ui
+# laravel/uiからVueをインストール
+php artisan ui vue
+# VueのパッケージをNPMでインストール
+npm install
+# SPAでRouteを担当する vue-routerをインストール
+npm install --save vue-router
+# BootstrapVueのインストール
+npm install vue bootstrap bootstrap-vue
+# フロントエンドをビルドする（VueコードをJavascriptに）
+npm run dev
+# 開発中にはこのコマンドを使ってリアルタイムで更新できるようにする
+npm run watch
+
+
+【bootstrap-vue】
+使用テンプレート：https://bootstrap-vue.org/docs
+参考デザイン：https://startbootstrap.com/previews/freelancer
