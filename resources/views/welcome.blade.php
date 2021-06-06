@@ -36,6 +36,6 @@
     }
 </style>
 <!-- Scripts -->
-<script src="{{ mix('/js/app.js') }}?210606" defer></script>
+<script src="{{ mix('/js/app.js') }}?210606v2" defer></script>
 </body>
 </html>
