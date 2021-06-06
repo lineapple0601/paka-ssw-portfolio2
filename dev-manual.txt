@@ -1,3 +1,4 @@
+【プロジェクト作成】
 参考資料：https://qiita.com/minato-naka/items/2d2def4d66ec88dc3ca2
 # Laravelプロジェクトの作成
 composer create-project --prefer-dist laravel/laravel vue-laravel-spa
@@ -20,3 +21,8 @@ npm run watch
 【bootstrap-vue】
 使用テンプレート：https://bootstrap-vue.org/docs
 参考デザイン：https://startbootstrap.com/previews/freelancer
+
+【Docker】
+Dockerイメージ： https://github.com/ucan-lab/docker-laravel
+マニュアル： https://qiita.com/ucan-lab/items/5fc1281cd8076c8ac9f4
+
