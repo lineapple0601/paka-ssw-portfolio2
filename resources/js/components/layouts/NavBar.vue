@@ -6,10 +6,10 @@
             <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav class="ml-auto">
                 <b-button-group>
-                    <b-button variant="outline-light">
+                    <b-button variant="outline-light" href="https://github.com/lineapple0601?tab=repositories">
                         <b-icon icon="github" variant="light"/> Github
                     </b-button>
-                    <b-button variant="outline-light">
+                    <b-button variant="outline-light" href="https://qiita.com/Paka_0601">
                         <b-icon icon="file-earmark-text"></b-icon> Qiita
                     </b-button>
                 </b-button-group>

@@ -35,8 +35,14 @@ Vue.use(IconsPlugin)
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('basic-navbar', require('./components/layouts/NavBar.vue').default);
 Vue.component('main-contents', require('./components/layouts/Contents.vue').default);
-Vue.component('index-profile-card', require('./components/index/Profile.vue').default);
+Vue.component('index-profile', require('./components/index/Profile.vue').default);
+Vue.component('introduce-card', require('./components/index/IntroduceCard.vue').default);
 Vue.component('job-detail', require('./components/index/JobDetail.vue').default);
+Vue.component('job-detail-modal-1', require('./components/index/modals/JobDetail1.vue').default);
+Vue.component('job-detail-modal-2', require('./components/index/modals/JobDetail2.vue').default);
+Vue.component('job-detail-modal-3', require('./components/index/modals/JobDetail3.vue').default);
+Vue.component('job-detail-modal-4', require('./components/index/modals/JobDetail4.vue').default);
+Vue.component('contact-address', require('./components/index/ContactAddress.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
